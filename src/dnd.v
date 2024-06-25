@@ -46,7 +46,7 @@ module tt_um_dice_roller (
     end
 
     // Instantiate the seven segment display module
-    tt_um_seven_segment_display display (
+    tt_um_seven_segment_display (
         .clk(clk),
         .reset(reset),
         .mode_switch(mode_switch),
